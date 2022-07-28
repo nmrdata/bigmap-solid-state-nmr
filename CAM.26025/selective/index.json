@@ -1,0 +1,39 @@
+{
+  "spectra": [
+    {
+      "source": {
+        "jcampURL": "./CAM.26025/selective/17O_NMR_La17Sr03NiO4_spinecho_Oi-selective.dx"
+      }
+    },
+    {
+      "source": {
+        "jcampURL": "./CAM.26025/selective/17O_NMR_La18Sr02NiO4_spinecho_Oi-selective.dx"
+      }
+    },
+    {
+      "source": {
+        "jcampURL": "./CAM.26025/selective/17O_NMR_La195Sr005NiO4_spinecho_Oi-selective.dx"
+      }
+    },
+    {
+      "source": {
+        "jcampURL": "./CAM.26025/selective/17O_NMR_La1975Sr0025NiO4_spinecho_Oi-selective.dx"
+      }
+    },
+    {
+      "source": {
+        "jcampURL": "./CAM.26025/selective/17O_NMR_La199Sr001NiO4_spinecho_Oi-selective.dx"
+      }
+    },
+    {
+      "source": {
+        "jcampURL": "./CAM.26025/selective/17O_NMR_La19Sr01NiO4_spinecho_Oi-selective.dx"
+      }
+    },
+    {
+      "source": {
+        "jcampURL": "./CAM.26025/selective/17O_NMR_La2NiO4_spinecho_Oi-selective.dx"
+      }
+    }
+  ]
+}

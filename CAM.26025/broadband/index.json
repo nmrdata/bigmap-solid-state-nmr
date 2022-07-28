@@ -1,0 +1,24 @@
+{
+  "spectra": [
+    {
+      "source": {
+        "jcampURL": "./CAM.26025/broadband/17O_NMR_La17Sr03NiO4_broadband-spinecho.dx"
+      }
+    },
+    {
+      "source": {
+        "jcampURL": "./CAM.26025/broadband/17O_NMR_La18Sr02NiO4_broadband-spinecho.dx"
+      }
+    },
+    {
+      "source": {
+        "jcampURL": "./CAM.26025/broadband/17O_NMR_La19Sr01NiO4_broadband-spinecho.dx"
+      }
+    },
+    {
+      "source": {
+        "jcampURL": "./CAM.26025/broadband/17O_NMR_La2NiO4_broadband-spinecho.dx"
+      }
+    }
+  ]
+}

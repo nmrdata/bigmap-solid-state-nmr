@@ -1,0 +1,18 @@
+[
+  {
+    "id": "5rPJZSVH2LtyV6Bs5/I5g+QhdMs=",
+    "file": "./CAM.26025/broadband/index.json",
+    "title": "broadband",
+    "selected": true
+  },
+  {
+    "id": "15720PE3Re8uW8ZDw5rbviJswuI=",
+    "file": "./CAM.26025/matpass/index.json",
+    "title": "matpass"
+  },
+  {
+    "id": "mLxJpIWQ0oJbU6w0Tg6jvq+WzMs=",
+    "file": "./CAM.26025/selective/index.json",
+    "title": "selective"
+  }
+]
