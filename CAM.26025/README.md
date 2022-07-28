@@ -1,4 +1,4 @@
-# Solid NMR dataset
+# Solid state NMR dataset
 
 Data coming from the paper:
 

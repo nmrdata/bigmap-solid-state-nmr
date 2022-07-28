@@ -1,4 +1,4 @@
-# Solid NMR dataset
+# Solid state NMR dataset
 
 This folder shows an example of a dataset that can be published on GitHub and is readable directly from NMRium.
 
