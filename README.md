@@ -10,3 +10,7 @@ If you have [node](https://nodejs.org/en/) installed it is super easy to generat
 npm i --global nmrium-cli
 nmrium createGeneralTOC
 ```
+
+You can then publish the project on 'gh-pages' and it will be accessible directly from the browser.
+
+https://www.nmrium.org/nmrium#?toc=https%3A%2F%2Fnmrdata.github.io%2Fsolid%2Ftoc.json
