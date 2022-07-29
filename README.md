@@ -8,7 +8,10 @@ The goal of this project is to provide an open source microservice (app) for the
 
 The project is open-source (MIT license) and is available on [https://git.nmrium.org](https://git.nmrium.org). An exhaustive documentation can be found on [https://docs.nmrium.org](https://docs.nmrium.org).
 
-In order to show the possibilities, we provide here a solid state NMR dataset.
+In order to show the possibilities, we provide here a solid state NMR dataset coming from the following publication:
+
+Halat, D., Dunstan, M., Gaultois, M., Britto, S., & Grey, C. (2018). Research data supporting "Study of defect chemistry in the system La 2- Sr NiO 4+ by 17 O solid-state NMR spectroscopy and Ni K-edge XANES" [https://doi.org/10.17863/CAM.26025](https://doi.org/10.17863/CAM.26025).
+
 It can be previewed from this link [https://www.nmrium.org/nmrium#?toc=https%3A%2F%2Fnmrdata.github.io%2Fbigmap-solid-state-nmr%2Ftoc.json](https://www.nmrium.org/nmrium#?toc=https%3A%2F%2Fnmrdata.github.io%2Fbigmap-solid-state-nmr%2Ftoc.json).
 
 ![overview](images/overview.png)
@@ -41,7 +44,7 @@ The usage of the React component is extensively described on [https://docs.nmriu
 
 The website [www.nmrium.org](https://www.nmrium.org/) is able to load a Table Of Contents (TOC) as a JSON file.
 
-If you would like to have a menu on the left containing many group of spectra you should load a correctly formatted `.json` file. In this case the URL has the following structure:
+If order to have a menu on the left containing many group of spectra you should load a correctly formatted `.json` file. In this case the URL has the following structure:
 
 <kbd>https://www.nmrium.org/nmrium</kbd><kbd>#?json=</kbd><kbd>jsonURL</kbd>
 
