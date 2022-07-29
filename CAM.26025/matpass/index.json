@@ -2,92 +2,92 @@
   "spectra": [
     {
       "source": {
-        "jcampURL": "./CAM.26025/matpass/17O_NMR_La125Sr075NiO4_MATPASS_piby2.dx"
+        "jcampURL": "./17O_NMR_La125Sr075NiO4_MATPASS_piby2.dx"
       }
     },
     {
       "source": {
-        "jcampURL": "./CAM.26025/matpass/17O_NMR_La125Sr075NiO4_MATPASS_piby4.dx"
+        "jcampURL": "./17O_NMR_La125Sr075NiO4_MATPASS_piby4.dx"
       }
     },
     {
       "source": {
-        "jcampURL": "./CAM.26025/matpass/17O_NMR_La125Sr075NiO4_MATPASS_piby6.dx"
+        "jcampURL": "./17O_NMR_La125Sr075NiO4_MATPASS_piby6.dx"
       }
     },
     {
       "source": {
-        "jcampURL": "./CAM.26025/matpass/17O_NMR_La15Sr05NiO4_MATPASS_piby2.dx"
+        "jcampURL": "./17O_NMR_La15Sr05NiO4_MATPASS_piby2.dx"
       }
     },
     {
       "source": {
-        "jcampURL": "./CAM.26025/matpass/17O_NMR_La15Sr05NiO4_MATPASS_piby6.dx"
+        "jcampURL": "./17O_NMR_La15Sr05NiO4_MATPASS_piby6.dx"
       }
     },
     {
       "source": {
-        "jcampURL": "./CAM.26025/matpass/17O_NMR_La17Sr03NiO4_MATPASS_piby2.dx"
+        "jcampURL": "./17O_NMR_La17Sr03NiO4_MATPASS_piby2.dx"
       }
     },
     {
       "source": {
-        "jcampURL": "./CAM.26025/matpass/17O_NMR_La17Sr03NiO4_MATPASS_piby6.dx"
+        "jcampURL": "./17O_NMR_La17Sr03NiO4_MATPASS_piby6.dx"
       }
     },
     {
       "source": {
-        "jcampURL": "./CAM.26025/matpass/17O_NMR_La18Sr02NiO4_MATPASS_piby2.dx"
+        "jcampURL": "./17O_NMR_La18Sr02NiO4_MATPASS_piby2.dx"
       }
     },
     {
       "source": {
-        "jcampURL": "./CAM.26025/matpass/17O_NMR_La18Sr02NiO4_MATPASS_piby6.dx"
+        "jcampURL": "./17O_NMR_La18Sr02NiO4_MATPASS_piby6.dx"
       }
     },
     {
       "source": {
-        "jcampURL": "./CAM.26025/matpass/17O_NMR_La195Sr005NiO4_MATPASS_piby2.dx"
+        "jcampURL": "./17O_NMR_La195Sr005NiO4_MATPASS_piby2.dx"
       }
     },
     {
       "source": {
-        "jcampURL": "./CAM.26025/matpass/17O_NMR_La1975Sr0025NiO4_MATPASS_piby2.dx"
+        "jcampURL": "./17O_NMR_La1975Sr0025NiO4_MATPASS_piby2.dx"
       }
     },
     {
       "source": {
-        "jcampURL": "./CAM.26025/matpass/17O_NMR_La199Sr001NiO4_MATPASS_piby2.dx"
+        "jcampURL": "./17O_NMR_La199Sr001NiO4_MATPASS_piby2.dx"
       }
     },
     {
       "source": {
-        "jcampURL": "./CAM.26025/matpass/17O_NMR_La19Sr01NiO4_MATPASS_piby2.dx"
+        "jcampURL": "./17O_NMR_La19Sr01NiO4_MATPASS_piby2.dx"
       }
     },
     {
       "source": {
-        "jcampURL": "./CAM.26025/matpass/17O_NMR_La19Sr01NiO4_MATPASS_piby6.dx"
+        "jcampURL": "./17O_NMR_La19Sr01NiO4_MATPASS_piby6.dx"
       }
     },
     {
       "source": {
-        "jcampURL": "./CAM.26025/matpass/17O_NMR_La2NiO4_MATPASS_piby2.dx"
+        "jcampURL": "./17O_NMR_La2NiO4_MATPASS_piby2.dx"
       }
     },
     {
       "source": {
-        "jcampURL": "./CAM.26025/matpass/17O_NMR_La2NiO4_MATPASS_piby6.dx"
+        "jcampURL": "./17O_NMR_La2NiO4_MATPASS_piby6.dx"
       }
     },
     {
       "source": {
-        "jcampURL": "./CAM.26025/matpass/17O_NMR_LaSrNiO4_MATPASS_piby4.dx"
+        "jcampURL": "./17O_NMR_LaSrNiO4_MATPASS_piby4.dx"
       }
     },
     {
       "source": {
-        "jcampURL": "./CAM.26025/matpass/17O_NMR_LaSrNiO4_MATPASS_piby6.dx"
+        "jcampURL": "./17O_NMR_LaSrNiO4_MATPASS_piby6.dx"
       }
     }
   ]
