@@ -7,7 +7,7 @@ The goal of this project is to provide an open source microservice (app) for the
 The project is open-source (MIT license) and is available on https://git.nmrium.org. An exhaustive documentation can be found on https://docs.nmrium.org.
 
 In order to show the possibilities, we have created a solid state NMR dataset in this repository.
-It can be previewed [here](https://www.nmrium.org/nmrium#?toc=https%3A%2F%2Fnmrdata.github.io%2Fsolid%2Ftoc.json).
+It can be previewed [here](https://www.nmrium.org/nmrium#?toc=https%3A%2F%2Fnmrdata.github.io%2Fbigmap-solid-state-nmr%2Ftoc.json).
 
 ## Integration in your own React website
 
@@ -133,7 +133,7 @@ nmrium createGeneralTOC
 
 You can then publish the project on 'gh-pages' and it will be accessible directly from the browser.
 
-https://www.nmrium.org/nmrium#?toc=https%3A%2F%2Fnmrdata.github.io%2Fsolid%2Ftoc.json
+https://www.nmrium.org/nmrium#?toc=https%3A%2F%2Fnmrdata.github.io%2Fbigmap-solid-state-nmr%2Ftoc.json
 
 https://www.nmrium.org/nmrium#?toc=http%3A%2F%2Flocalhost:5500%2Ftoc.json
 
