@@ -14,3 +14,5 @@ nmrium createGeneralTOC
 You can then publish the project on 'gh-pages' and it will be accessible directly from the browser.
 
 https://www.nmrium.org/nmrium#?toc=https%3A%2F%2Fnmrdata.github.io%2Fsolid%2Ftoc.json
+
+https://www.nmrium.org/nmrium#?toc=http%3A%2F%2Flocalhost:5500%2Ftoc.json
