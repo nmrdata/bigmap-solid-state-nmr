@@ -4,7 +4,7 @@
 
 ## Short summary
 
-The goal of this project is to provide an open source microservice (app) for the visualization and analysis of solid-state NMR data accessible via a modern web front-end (React).
+The goal of this project is to provide an open source microservice (app) for the visualization and analysis of solid-state NMR spectra accessible via a modern web front-end (React).
 
 The project is open-source (MIT license) and is available on [https://git.nmrium.org](https://git.nmrium.org). An exhaustive documentation can be found on [https://docs.nmrium.org](https://docs.nmrium.org).
 
@@ -34,7 +34,7 @@ function MyComponent() {
 
 More information about loading the data and using the numerous options can be found [https://docs.nmrium.org/for-developers/include-react-component](https://docs.nmrium.org/for-developers/include-react-component).
 
-## Visualization of data on [https://www.nmrium.org/nmrium](https://www.nmrium.org/nmrium)
+## Visualization of spectra on [https://www.nmrium.org/nmrium](https://www.nmrium.org/nmrium)
 
 The website [https://www.nmrium.org/nmrium](https://www.nmrium.org/nmrium) provides a demonstration of NMRium component. On this page you are able either to drag and drop a list of JCAMP-DX files or a zip file containing native Bruker files.
 
@@ -48,7 +48,7 @@ If order to have a menu on the left containing many group of spectra you should 
 
 <kbd>https://www.nmrium.org/nmrium</kbd><kbd>#?json=</kbd><kbd>jsonURL</kbd>
 
-The `jsonURL` must be accessible using Ajax (take care about cross-origin).
+The `jsonURL` must be accessible using Ajax (take care about cross-origin). This file could be generated dynamically directly from a database.
 
 Here is an example of the content of the `toc.json` file:
 
@@ -131,7 +131,7 @@ We have develop a utility that simplifies the process of creating a static set o
 
 The principle is quite simple, you create folders containing jcamp files (extension `dx` or `jdx`) and optionally a molfile (extension `.mol`).
 
-If you have [node](https://nodejs.org/en/) installed it is super easy to generate the correct json toc allowing to visualize the data from the web.
+If you have [node](https://nodejs.org/en/) installed, execute the following instructions to generate the correct json files:
 
 ```bash
 npm i --global nmrium-cli
