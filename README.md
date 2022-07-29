@@ -1,3 +1,5 @@
+![logo](images/nmrium-logo.svg)
+
 # Solid state NMR visualization
 
 ## Short summary
