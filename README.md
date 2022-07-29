@@ -11,6 +11,8 @@ The project is open-source (MIT license) and is available on [https://git.nmrium
 In order to show the possibilities, we provide here a solid state NMR dataset.
 It can be previewed from this link [https://www.nmrium.org/nmrium#?toc=https%3A%2F%2Fnmrdata.github.io%2Fbigmap-solid-state-nmr%2Ftoc.json](https://www.nmrium.org/nmrium#?toc=https%3A%2F%2Fnmrdata.github.io%2Fbigmap-solid-state-nmr%2Ftoc.json).
 
+![overview](images/overview.png)
+
 ## Integration in your own React website
 
 `NMRium` is published on `npm` and can be installed using:
