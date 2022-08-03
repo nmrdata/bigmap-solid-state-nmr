@@ -4,7 +4,7 @@
 
 ## Short summary
 
-The goal of this project is to provide an open source microservice (app) for the visualization and analysis of solid-state NMR spectra accessible via a modern web front-end (React).
+The goal of this project is to provide an open source microservice (app) for the processing, visualization and analysis of solid-state NMR spectra accessible via a modern web front-end (React).
 
 The project is open-source (MIT license) and is available on [https://git.nmrium.org](https://git.nmrium.org). An exhaustive documentation can be found on [https://docs.nmrium.org](https://docs.nmrium.org).
 
@@ -16,7 +16,35 @@ It can be previewed from this link [https://www.nmrium.org/nmrium#?toc=https%3A%
 
 ![overview](images/overview.png)
 
-## Integration in your own React website
+## General overview of the features
+
+### From the FID
+
+NMRium allows to load native 1D data from Bruker (Zip file), Varian and Jeol as well as the JCAMP-DX file format. Either the FID or the FT file can be loaded.
+
+From the FID the following operations can be done
+
+- Apodization (Line broadening, Gauss broadening, Center for line broadening)
+- Zero filling
+- Fourier transform
+
+![overview](images/apodization.png)
+
+### Analyze the spectrum
+
+A tool allows to make peak picking and to reference the spectrum if required.
+
+![overview](images/peak-picking.png)
+
+### Exportation
+
+The image of the spectrum can be copied using <kbd>CTRL</kbd><kbd>C</kbd> but can also be downloaded to the native `.nmrium` format (for further processing) or as a svg to create high quality reports.
+
+## Integration if your own system
+
+There are various ways to integrate NMRium in your own system, from a close integration using the React component to a simple link to www.nmrium.org.
+
+### Integration in your own React website
 
 `NMRium` is published on `npm` and can be installed using:
 
@@ -32,23 +60,23 @@ function MyComponent() {
 }
 ```
 
-More information about loading the data and using the numerous options can be found [https://docs.nmrium.org/for-developers/include-react-component](https://docs.nmrium.org/for-developers/include-react-component).
+More information about loading the data from a `prop` and using the numerous options can be found on [https://docs.nmrium.org/for-developers/include-react-component](https://docs.nmrium.org/for-developers/include-react-component).
 
-## Visualization of spectra on [https://www.nmrium.org/nmrium](https://www.nmrium.org/nmrium)
+### Visualization of spectra on [https://www.nmrium.org/nmrium](https://www.nmrium.org/nmrium)
 
-The website [https://www.nmrium.org/nmrium](https://www.nmrium.org/nmrium) provides a demonstration of NMRium component. On this page you are able either to drag and drop a list of JCAMP-DX files or a zip file containing native Bruker files.
+The website [https://www.nmrium.org/nmrium](https://www.nmrium.org/nmrium) provides a demonstration of NMRium component. On this page you are able either to drag and drop a list of JCAMP-DX or a zip file containing native Bruker files.
 
-The usage of the React component is extensively described on [https://docs.nmrium.org](https://docs.nmrium.org).
+The use of NMRium is extensively described on [https://docs.nmrium.org](https://docs.nmrium.org).
 
-## Opening directly your spectra from your ELN on [https://www.nmrium.org](https://www.nmrium.org)
+### Opening directly your spectra from your ELN on [https://www.nmrium.org](https://www.nmrium.org)
 
 The website [www.nmrium.org](https://www.nmrium.org/) is able to load a Table Of Contents (TOC) as a JSON file.
 
-If order to have a menu on the left containing many group of spectra you should load a correctly formatted `.json` file. In this case the URL has the following structure:
+If order to have a menu on the left containing many group of spectra you should create a correctly formatted `.json` file. In this case the URL to this JSON file has the following structure:
 
 <kbd>https://www.nmrium.org/nmrium</kbd><kbd>#?json=</kbd><kbd>jsonURL</kbd>
 
-The `jsonURL` must be accessible using Ajax (take care about cross-origin). This file could be generated dynamically directly from a database.
+The `jsonURL` must be accessible using Ajax (take care about cross-origin and https). This file could be generated dynamically directly from a database.
 
 Here is an example of the content of the `toc.json` file:
 
@@ -125,9 +153,9 @@ This example can be tested here:
 
 More information can be found on [https://docs.nmrium.org/for-developers/using-nmrium#loading-a-table-of-contents](https://docs.nmrium.org/for-developers/using-nmrium#loading-a-table-of-contents).
 
-## Creating your own databaset
+## Creating your own TOC from command line
 
-We have develop a utility that simplifies the process of creating a static set of spectra and the toc.json file.
+We have developed a utility that simplifies the process of creating a static set of spectra and the toc.json file.
 
 The principle is quite simple, you create folders containing jcamp files (extension `dx` or `jdx`) and optionally a molfile (extension `.mol`).
 
@@ -139,6 +167,16 @@ nmrium createGeneralTOC
 ```
 
 This command will generate the required `toc.json` file as well as the corresponding `.json` in each folder. If this `toc.json` is accessible from a URL it can be loaded by NMRium as explained above.
+
+## Future developments
+
+While NMRium fulfill the requirements to visualize and process solid state NMR spectra, more tools can always be implemented and could be part of another project.
+
+In particular we would like to focus on:
+
+- peak shape analysis
+- multi spectra analysis and difference in spectra
+- reference database for quick and easy comparison of other spectra
 
 ## Acknowledgements
 
